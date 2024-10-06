@@ -30,10 +30,6 @@ Logout: Securely log out after viewing attendance.
 Technologies Used
 HTML,CSS,JavaScript
 
-Contributors
-Ankita Deori
-Nayeema N Laskar
-Future Enhancements
 
 This project is open-source and free to use. Feel free to contribute or fork the repository!
 
