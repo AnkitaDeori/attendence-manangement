@@ -13,6 +13,7 @@ Teachers can mark attendance in real-time, view previous attendance records, and
 Features
 
 For Teachers:
+
 Sign Up / Sign In: Create an account or log in.
 
 Course Management: Select course, year, and date.
@@ -25,15 +26,17 @@ Warning System: Identify and warn students with attendance below 75%.
 
 Logout: Securely log out after the session.
 
+
 For Students:
+
 Sign Up / Sign In: Create an account or log in.
+
 Attendance Overview: View attendance records for the selected course.
+
 Submit Leave Application: Request leave for any missed days.
+
 Logout: Securely log out after viewing attendance.
 
-
-Technologies Used
-HTML,CSS,JavaScript
 
 
 This project is open-source and free to use. Feel free to contribute or fork the repository!
