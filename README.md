@@ -14,10 +14,15 @@ Features
 
 For Teachers:
 Sign Up / Sign In: Create an account or log in.
+
 Course Management: Select course, year, and date.
+
 Mark Attendance: Mark students as present or absent for the current day.
+
 View Attendance: Review attendance records for previous classes.
+
 Warning System: Identify and warn students with attendance below 75%.
+
 Logout: Securely log out after the session.
 
 For Students:
