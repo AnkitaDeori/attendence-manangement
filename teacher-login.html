@@ -7,7 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="teacher-login.html">Teacher Login</a></li>
+      <li><a href="student-login.html">Student Login</a></li>
+      <li><a href="index.html">Logout</a></li>
+    </ul>
+  </nav>
   <div class="container">
+   
     <h1>Teacher Login</h1>
 
     <!-- Login Form -->
@@ -20,9 +29,9 @@
       
       <button type="submit">Login</button>
     </form>
-
+  
     <!-- Sign-Up Form -->
-    <h2>New Teacher? Sign Up</h2>
+    <h2>New Member? Sign Up</h2>
     <form id="teacher-signup-form">
       <label for="name">Name:</label>
       <input type="text" id="signup-name" required>
@@ -35,7 +44,10 @@
 
       <button type="submit">Sign Up</button>
     </form>
+    <img src="images/teacher.png" alt="">
+    
   </div>
+  
 
   <script src="teacher.js"></script>
 </body>
