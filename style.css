@@ -50,8 +50,8 @@ body {
 
 /* Image Styling */
 .container img {
-  flex: 1;
-  max-width: 600px;
+  width: 100%; /* Make the image take up the full width of the container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .login-container {
@@ -75,8 +75,8 @@ body {
 
 /* Login Image Styling */
 .login-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%; /* Make the login image responsive */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 8px;
 }
 
