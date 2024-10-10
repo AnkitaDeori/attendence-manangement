@@ -1,5 +1,7 @@
 # AttendEase
 
+Link to the site:https://nausin18.github.io/AttendEase/
+
 AttendEase - Attendance Management System
 
 Project by: Ankita Deori and Nayeema N Laskar
