@@ -29,6 +29,7 @@ body {
   }
   
   .container {
+    
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
@@ -37,10 +38,37 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   .container img{
-    width: 100%;
-    height: 100%;
+    flex: 1;                  /* Let the image container take 1 part of the available space */
+  max-width: 600px; 
+  }
+  .login-container {
+    display: flex;           /* Use Flexbox to position items side by side */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;     /* Align items vertically in the center */
+    padding: 20px;
+    max-width: 1000px;       /* Restrict the max width of the container */
+    margin: 50px auto;       /* Center the container */
   }
   
+  /* Style the image container */
+  .login-image-container {
+    flex: 1;                /* Allow the image container to take up 1 part of the space */
+    max-width: 400px;        /* Set a max width for the image */
+  }
+  
+  /* Style the login form container */
+  .login-form-container {
+    flex: 1;                /* Allow the form container to take up 1 part of the space */
+    padding-left: 20px;     /* Add some spacing between the image and form */
+  }
+  
+  /* Style the login image */
+  .login-image {
+    max-width: 100%;        /* Make sure the image is responsive */
+    height: auto;           /* Maintain the image aspect ratio */
+    border-radius: 8px;     /* Add a little border radius for rounded corners */
+  }
+
   h1 {
     text-align: center;
   }
@@ -72,4 +100,69 @@ body {
   button:hover {
     background-color: #555;
   }
-  
+  /* Media Queries for Responsiveness */
+
+/* For tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .login-form-container {
+    padding-left: 0;
+  }
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .login-form-container {
+    padding-left: 0;
+  }
+
+/*
+  .navbar ul li {
+    display: block;
+    margin: 10px 0;
+  }
+*/
+
+  .container {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    padding: 12px;
+  }
+}
+
+  .container {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    padding: 12px;
+  }
+}
