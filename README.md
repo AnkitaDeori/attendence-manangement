@@ -14,6 +14,7 @@ Features
 
 For Teachers:
 
+
 Sign Up / Sign In: Create an account or log in.
 
 Course Management: Select course, year, and date.
@@ -28,6 +29,7 @@ Logout: Securely log out after the session.
 
 
 For Students:
+
 
 Sign Up / Sign In: Create an account or log in.
 
